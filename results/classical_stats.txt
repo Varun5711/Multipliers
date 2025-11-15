@@ -1,0 +1,97 @@
+17. Printing statistics.
+
+=== bit16a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        6 wires
+       54 wire bits
+        6 public wires
+       54 public wire bits
+        5 ports
+       50 port bits
+        4 submodules
+        4   bit4a
+
+=== bit4a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        6 wires
+       17 wire bits
+        6 public wires
+       17 public wire bits
+        5 ports
+       14 port bits
+        4 submodules
+        4   full_adder
+
+=== bit64a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+      196 wire bits
+        5 public wires
+      196 public wire bits
+        4 ports
+      193 port bits
+        4 submodules
+        4   bit16a
+
+=== classical ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1155 wires
+     5216 wire bits
+       67 public wires
+     4128 public wire bits
+        3 ports
+      129 port bits
+     1024 cells
+     1024   $_AND_
+       31 submodules
+       31   bit64a
+
+=== full_adder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        5 public wires
+        5 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    12928 classical
+        6       full_adder
+
+        +----------Count including submodules.
+        | 
+    42726 wires
+    64116 wire bits
+    13862 public wires
+    35252 public wire bits
+    13147 ports
+    29176 port bits
+        - memories
+        - memory bits
+        - processes
+    12928 cells
+     1024   $_AND_
+     7936   $_NAND_
+     1984   $_OR_
+     1984   $_XNOR_
+       31 submodules
+       31   bit64a
+

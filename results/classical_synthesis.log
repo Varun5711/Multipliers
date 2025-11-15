@@ -1,0 +1,962 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.59+0 (git sha1 26b51148a80ea546481cf4f0516be97e4ba251cc, clang++ 17.0.0 -fPIC -O3)
+
+-- Executing script file `synthesis/synthesize_classical.ys' --
+
+1. Executing Verilog-2005 frontend: multipliers/classical/full_adder.v
+Parsing Verilog input from `multipliers/classical/full_adder.v' to AST representation.
+verilog frontend filename multipliers/classical/full_adder.v
+Generating RTLIL representation for module `\full_adder'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: multipliers/classical/bit4a.v
+Parsing Verilog input from `multipliers/classical/bit4a.v' to AST representation.
+verilog frontend filename multipliers/classical/bit4a.v
+Generating RTLIL representation for module `\bit4a'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: multipliers/classical/bit16a.v
+Parsing Verilog input from `multipliers/classical/bit16a.v' to AST representation.
+verilog frontend filename multipliers/classical/bit16a.v
+Generating RTLIL representation for module `\bit16a'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: multipliers/classical/bit64a.v
+Parsing Verilog input from `multipliers/classical/bit64a.v' to AST representation.
+verilog frontend filename multipliers/classical/bit64a.v
+Generating RTLIL representation for module `\bit64a'.
+Successfully finished Verilog frontend.
+
+5. Executing Verilog-2005 frontend: multipliers/classical/classical.v
+Parsing Verilog input from `multipliers/classical/classical.v' to AST representation.
+verilog frontend filename multipliers/classical/classical.v
+Generating RTLIL representation for module `\classical'.
+Successfully finished Verilog frontend.
+
+6. Executing HIERARCHY pass (managing design hierarchy).
+
+6.1. Analyzing design hierarchy..
+Top module:  \classical
+Used module:     \bit64a
+Used module:         \bit16a
+Used module:             \bit4a
+Used module:                 \full_adder
+
+6.2. Analyzing design hierarchy..
+Top module:  \classical
+Used module:     \bit64a
+Used module:         \bit16a
+Used module:             \bit4a
+Used module:                 \full_adder
+Removed 0 unused modules.
+Mapping positional arguments of cell classical.sixtyfour31 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour30 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour29 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour28 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour27 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour26 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour25 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour24 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour23 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour22 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour21 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour20 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour19 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour18 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour17 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour16 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour15 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour14 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour13 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour12 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour11 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour10 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour9 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour8 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour7 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour6 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour5 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour4 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour3 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour2 (bit64a).
+Mapping positional arguments of cell classical.sixtyfour1 (bit64a).
+Mapping positional arguments of cell bit64a.a4 (bit16a).
+Mapping positional arguments of cell bit64a.a3 (bit16a).
+Mapping positional arguments of cell bit64a.a2 (bit16a).
+Mapping positional arguments of cell bit64a.a1 (bit16a).
+Mapping positional arguments of cell bit16a.a4 (bit4a).
+Mapping positional arguments of cell bit16a.a3 (bit4a).
+Mapping positional arguments of cell bit16a.a2 (bit4a).
+Mapping positional arguments of cell bit16a.a1 (bit4a).
+Mapping positional arguments of cell bit4a.a4 (full_adder).
+Mapping positional arguments of cell bit4a.a3 (full_adder).
+Mapping positional arguments of cell bit4a.a2 (full_adder).
+Mapping positional arguments of cell bit4a.a1 (full_adder).
+Warning: Resizing cell port classical.sixtyfour31.s from 65 bits to 64 bits.
+
+7. Executing PROC pass (convert processes to netlists).
+
+7.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+7.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+7.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+7.4. Executing PROC_INIT pass (extract init attributes).
+
+7.5. Executing PROC_ARST pass (detect async resets in processes).
+
+7.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+7.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+7.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+7.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+7.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+7.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+7.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module classical.
+Optimizing module bit64a.
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module full_adder.
+
+8. Executing OPT pass (performing simple optimizations).
+
+8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module classical.
+Optimizing module bit64a.
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module full_adder.
+
+8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \classical..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit64a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit16a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit4a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \full_adder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \classical.
+  Optimizing cells in module \bit64a.
+  Optimizing cells in module \bit16a.
+  Optimizing cells in module \bit4a.
+  Optimizing cells in module \full_adder.
+Performed a total of 0 changes.
+
+8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+8.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \classical..
+Finding unused cells or wires in module \bit64a..
+Finding unused cells or wires in module \bit16a..
+Finding unused cells or wires in module \bit4a..
+Finding unused cells or wires in module \full_adder..
+Removed 0 unused cells and 1026 unused wires.
+<suppressed ~2 debug messages>
+
+8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module bit64a.
+Optimizing module classical.
+Optimizing module full_adder.
+
+8.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+8.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bit16a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit4a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit64a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \classical..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \full_adder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+8.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bit16a.
+  Optimizing cells in module \bit4a.
+  Optimizing cells in module \bit64a.
+  Optimizing cells in module \classical.
+  Optimizing cells in module \full_adder.
+Performed a total of 0 changes.
+
+8.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+8.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bit16a..
+Finding unused cells or wires in module \bit4a..
+Finding unused cells or wires in module \bit64a..
+Finding unused cells or wires in module \classical..
+Finding unused cells or wires in module \full_adder..
+
+8.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module bit64a.
+Optimizing module classical.
+Optimizing module full_adder.
+
+8.16. Finished fast OPT passes. (There is nothing left to do.)
+
+9. Executing FSM pass (extract and optimize FSM).
+
+9.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+9.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+9.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+9.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bit16a..
+Finding unused cells or wires in module \bit4a..
+Finding unused cells or wires in module \bit64a..
+Finding unused cells or wires in module \classical..
+Finding unused cells or wires in module \full_adder..
+
+9.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+9.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+9.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+9.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+10. Executing OPT pass (performing simple optimizations).
+
+10.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module bit64a.
+Optimizing module classical.
+Optimizing module full_adder.
+
+10.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bit16a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit4a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit64a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \classical..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \full_adder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bit16a.
+  Optimizing cells in module \bit4a.
+  Optimizing cells in module \bit64a.
+  Optimizing cells in module \classical.
+  Optimizing cells in module \full_adder.
+Performed a total of 0 changes.
+
+10.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+10.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bit16a..
+Finding unused cells or wires in module \bit4a..
+Finding unused cells or wires in module \bit64a..
+Finding unused cells or wires in module \classical..
+Finding unused cells or wires in module \full_adder..
+
+10.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module bit64a.
+Optimizing module classical.
+Optimizing module full_adder.
+
+10.9. Finished fast OPT passes. (There is nothing left to do.)
+
+11. Executing MEMORY pass.
+
+11.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+11.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+11.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+11.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+11.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+11.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bit16a..
+Finding unused cells or wires in module \bit4a..
+Finding unused cells or wires in module \bit64a..
+Finding unused cells or wires in module \classical..
+Finding unused cells or wires in module \full_adder..
+
+11.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+11.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+11.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bit16a..
+Finding unused cells or wires in module \bit4a..
+Finding unused cells or wires in module \bit64a..
+Finding unused cells or wires in module \classical..
+Finding unused cells or wires in module \full_adder..
+
+11.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+11.11. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+12. Executing OPT pass (performing simple optimizations).
+
+12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module bit64a.
+Optimizing module classical.
+Optimizing module full_adder.
+
+12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+12.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bit16a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit4a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit64a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \classical..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \full_adder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+12.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bit16a.
+  Optimizing cells in module \bit4a.
+  Optimizing cells in module \bit64a.
+  Optimizing cells in module \classical.
+  Optimizing cells in module \full_adder.
+Performed a total of 0 changes.
+
+12.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+12.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+12.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bit16a..
+Finding unused cells or wires in module \bit4a..
+Finding unused cells or wires in module \bit64a..
+Finding unused cells or wires in module \classical..
+Finding unused cells or wires in module \full_adder..
+
+12.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module bit64a.
+Optimizing module classical.
+Optimizing module full_adder.
+
+12.9. Finished fast OPT passes. (There is nothing left to do.)
+
+13. Executing TECHMAP pass (map to technology primitives).
+
+13.1. Executing Verilog-2005 frontend: /opt/homebrew/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/opt/homebrew/bin/../share/yosys/techmap.v' to AST representation.
+verilog frontend filename /opt/homebrew/bin/../share/yosys/techmap.v
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `\$connect'.
+Generating RTLIL representation for module `\$input_port'.
+Successfully finished Verilog frontend.
+
+13.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $or.
+No more expansions possible.
+<suppressed ~1108 debug messages>
+
+14. Executing OPT pass (performing simple optimizations).
+
+14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module bit64a.
+Optimizing module classical.
+Optimizing module full_adder.
+
+14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \bit16a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit4a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \bit64a..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \classical..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \full_adder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \bit16a.
+  Optimizing cells in module \bit4a.
+  Optimizing cells in module \bit64a.
+  Optimizing cells in module \classical.
+  Optimizing cells in module \full_adder.
+Performed a total of 0 changes.
+
+14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\bit16a'.
+Finding identical cells in module `\bit4a'.
+Finding identical cells in module `\bit64a'.
+Finding identical cells in module `\classical'.
+Finding identical cells in module `\full_adder'.
+Removed a total of 0 cells.
+
+14.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \bit16a..
+Finding unused cells or wires in module \bit4a..
+Finding unused cells or wires in module \bit64a..
+Finding unused cells or wires in module \classical..
+Finding unused cells or wires in module \full_adder..
+
+14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module bit16a.
+Optimizing module bit4a.
+Optimizing module bit64a.
+Optimizing module classical.
+Optimizing module full_adder.
+
+14.9. Finished fast OPT passes. (There is nothing left to do.)
+
+15. Executing ABC pass (technology mapping using ABC).
+
+15.1. Extracting gate netlist of module `\bit16a' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
+
+15.1.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+15.2. Extracting gate netlist of module `\bit4a' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
+
+15.2.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+15.3. Extracting gate netlist of module `\bit64a' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
+
+15.3.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+15.4. Extracting gate netlist of module `\classical' to `<abc-temp-dir>/input.blif'..
+
+15.4.1. Executed ABC.
+Extracted 1024 gates and 1088 wires to a netlist network with 64 inputs and 1024 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-mNrwlE/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+15.4.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:     1024
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:       64
+ABC RESULTS:          output signals:     1024
+Removing temp directory.
+
+15.5. Extracting gate netlist of module `\full_adder' to `<abc-temp-dir>/input.blif'..
+
+15.5.1. Executed ABC.
+Extracted 7 gates and 10 wires to a netlist network with 3 inputs and 2 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-mNrwlE/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+15.5.2. Re-integrating ABC results.
+ABC RESULTS:              NAND cells:        4
+ABC RESULTS:                OR cells:        1
+ABC RESULTS:              XNOR cells:        1
+ABC RESULTS:        internal signals:        5
+ABC RESULTS:           input signals:        3
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+Removing global temp directory.
+
+16. Printing statistics.
+
+=== bit16a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        6 wires
+       54 wire bits
+        6 public wires
+       54 public wire bits
+        5 ports
+       50 port bits
+        4 submodules
+        4   bit4a
+
+=== bit4a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        6 wires
+       17 wire bits
+        6 public wires
+       17 public wire bits
+        5 ports
+       14 port bits
+        4 submodules
+        4   full_adder
+
+=== bit64a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+      196 wire bits
+        5 public wires
+      196 public wire bits
+        4 ports
+      193 port bits
+        4 submodules
+        4   bit16a
+
+=== classical ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1155 wires
+     5216 wire bits
+       67 public wires
+     4128 public wire bits
+        3 ports
+      129 port bits
+     1024 cells
+     1024   $_AND_
+       31 submodules
+       31   bit64a
+
+=== full_adder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        5 public wires
+        5 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    12928 classical
+        6       full_adder
+
+        +----------Count including submodules.
+        | 
+    42726 wires
+    64116 wire bits
+    13862 public wires
+    35252 public wire bits
+    13147 ports
+    29176 port bits
+        - memories
+        - memory bits
+        - processes
+    12928 cells
+     1024   $_AND_
+     7936   $_NAND_
+     1984   $_OR_
+     1984   $_XNOR_
+       31 submodules
+       31   bit64a
+
+17. Printing statistics.
+
+=== bit16a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        6 wires
+       54 wire bits
+        6 public wires
+       54 public wire bits
+        5 ports
+       50 port bits
+        4 submodules
+        4   bit4a
+
+=== bit4a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        6 wires
+       17 wire bits
+        6 public wires
+       17 public wire bits
+        5 ports
+       14 port bits
+        4 submodules
+        4   full_adder
+
+=== bit64a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+      196 wire bits
+        5 public wires
+      196 public wire bits
+        4 ports
+      193 port bits
+        4 submodules
+        4   bit16a
+
+=== classical ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1155 wires
+     5216 wire bits
+       67 public wires
+     4128 public wire bits
+        3 ports
+      129 port bits
+     1024 cells
+     1024   $_AND_
+       31 submodules
+       31   bit64a
+
+=== full_adder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        5 public wires
+        5 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    12928 classical
+        6       full_adder
+
+        +----------Count including submodules.
+        | 
+    42726 wires
+    64116 wire bits
+    13862 public wires
+    35252 public wire bits
+    13147 ports
+    29176 port bits
+        - memories
+        - memory bits
+        - processes
+    12928 cells
+     1024   $_AND_
+     7936   $_NAND_
+     1984   $_OR_
+     1984   $_XNOR_
+       31 submodules
+       31   bit64a
+
+18. Executing Verilog backend.
+
+18.1. Executing BMUXMAP pass.
+
+18.2. Executing DEMUXMAP pass.
+Dumping module `\bit16a'.
+Dumping module `\bit4a'.
+Dumping module `\bit64a'.
+Dumping module `\classical'.
+Dumping module `\full_adder'.
+
+19. Printing statistics.
+
+=== bit16a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        6 wires
+       54 wire bits
+        6 public wires
+       54 public wire bits
+        5 ports
+       50 port bits
+        4 submodules
+        4   bit4a
+
+=== bit4a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        6 wires
+       17 wire bits
+        6 public wires
+       17 public wire bits
+        5 ports
+       14 port bits
+        4 submodules
+        4   full_adder
+
+=== bit64a ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+      196 wire bits
+        5 public wires
+      196 public wire bits
+        4 ports
+      193 port bits
+        4 submodules
+        4   bit16a
+
+=== classical ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     1155 wires
+     5216 wire bits
+       67 public wires
+     4128 public wire bits
+        3 ports
+      129 port bits
+     1024 cells
+     1024   $_AND_
+       31 submodules
+       31   bit64a
+
+=== full_adder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        5 public wires
+        5 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    12928 classical
+        6       full_adder
+
+        +----------Count including submodules.
+        | 
+    42726 wires
+    64116 wire bits
+    13862 public wires
+    35252 public wire bits
+    13147 ports
+    29176 port bits
+        - memories
+        - memory bits
+        - processes
+    12928 cells
+     1024   $_AND_
+     7936   $_NAND_
+     1984   $_OR_
+     1984   $_XNOR_
+       31 submodules
+       31   bit64a
+
+Warnings: 1 unique messages, 1 total
+End of script. Logfile hash: d838cba0d8, CPU: user 0.20s system 0.01s, MEM: 32.20 MB peak
+Yosys 0.59+0 (git sha1 26b51148a80ea546481cf4f0516be97e4ba251cc, clang++ 17.0.0 -fPIC -O3)
+Time spent: 26% 1x abc (0 sec), 24% 11x read_verilog (0 sec), ...

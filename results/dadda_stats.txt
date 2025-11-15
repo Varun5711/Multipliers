@@ -1,0 +1,1074 @@
+17. Printing statistics.
+
+=== DaddaMultiplier ===
+
+        +----------Local Count, excluding submodules.
+        | 
+     2050 wires
+     2175 wire bits
+     2050 public wires
+     2175 public wire bits
+        3 ports
+      128 port bits
+       64 submodules
+        1   FinalSum
+        1   GenPPRow0
+        1   GenPPRow1
+        1   GenPPRow10
+        1   GenPPRow11
+        1   GenPPRow12
+        1   GenPPRow13
+        1   GenPPRow14
+        1   GenPPRow15
+        1   GenPPRow16
+        1   GenPPRow17
+        1   GenPPRow18
+        1   GenPPRow19
+        1   GenPPRow2
+        1   GenPPRow20
+        1   GenPPRow21
+        1   GenPPRow22
+        1   GenPPRow23
+        1   GenPPRow24
+        1   GenPPRow25
+        1   GenPPRow26
+        1   GenPPRow27
+        1   GenPPRow28
+        1   GenPPRow29
+        1   GenPPRow3
+        1   GenPPRow30
+        1   GenPPRow31
+        1   GenPPRow4
+        1   GenPPRow5
+        1   GenPPRow6
+        1   GenPPRow7
+        1   GenPPRow8
+        1   GenPPRow9
+        1   stage0
+        1   stage1
+        1   stage10
+        1   stage11
+        1   stage12
+        1   stage13
+        1   stage14
+        1   stage15
+        1   stage16
+        1   stage17
+        1   stage18
+        1   stage19
+        1   stage2
+        1   stage20
+        1   stage21
+        1   stage22
+        1   stage23
+        1   stage24
+        1   stage25
+        1   stage26
+        1   stage27
+        1   stage28
+        1   stage29
+        1   stage3
+        1   stage30
+        1   stage4
+        1   stage5
+        1   stage6
+        1   stage7
+        1   stage8
+        1   stage9
+
+=== FinalSum ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       65 wires
+      128 wire bits
+       65 public wires
+      128 public wire bits
+       65 ports
+      128 port bits
+
+=== GenPPRow0 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow1 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow10 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow11 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow12 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow13 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow14 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow15 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow16 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow17 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow18 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow19 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow2 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow20 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow21 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow22 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow23 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow24 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow25 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow26 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow27 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow28 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow29 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow3 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow30 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow31 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow4 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow5 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow6 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow7 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow8 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== GenPPRow9 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       99 wires
+      130 wire bits
+       34 public wires
+       65 public wire bits
+       34 ports
+       65 port bits
+       32 cells
+       32   $_AND_
+
+=== full_adder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        5 public wires
+        5 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== stage0 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      247 wires
+      247 wire bits
+      247 public wires
+      247 public wire bits
+      186 ports
+      186 port bits
+       62 submodules
+       62   full_adder
+
+=== stage1 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      241 wires
+      241 wire bits
+      241 public wires
+      241 public wire bits
+      181 ports
+      181 port bits
+       61 submodules
+       61   full_adder
+
+=== stage10 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      169 wires
+      169 wire bits
+      169 public wires
+      169 public wire bits
+      127 ports
+      127 port bits
+       43 submodules
+       43   full_adder
+
+=== stage11 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      161 wires
+      161 wire bits
+      161 public wires
+      161 public wire bits
+      121 ports
+      121 port bits
+       41 submodules
+       41   full_adder
+
+=== stage12 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      153 wires
+      153 wire bits
+      153 public wires
+      153 public wire bits
+      115 ports
+      115 port bits
+       39 submodules
+       39   full_adder
+
+=== stage13 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      145 wires
+      145 wire bits
+      145 public wires
+      145 public wire bits
+      109 ports
+      109 port bits
+       37 submodules
+       37   full_adder
+
+=== stage14 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      137 wires
+      137 wire bits
+      137 public wires
+      137 public wire bits
+      103 ports
+      103 port bits
+       35 submodules
+       35   full_adder
+
+=== stage15 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      129 wires
+      129 wire bits
+      129 public wires
+      129 public wire bits
+       97 ports
+       97 port bits
+       33 submodules
+       33   full_adder
+
+=== stage16 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      121 wires
+      121 wire bits
+      121 public wires
+      121 public wire bits
+       91 ports
+       91 port bits
+       31 submodules
+       31   full_adder
+
+=== stage17 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      113 wires
+      113 wire bits
+      113 public wires
+      113 public wire bits
+       85 ports
+       85 port bits
+       29 submodules
+       29   full_adder
+
+=== stage18 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      105 wires
+      105 wire bits
+      105 public wires
+      105 public wire bits
+       79 ports
+       79 port bits
+       27 submodules
+       27   full_adder
+
+=== stage19 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       97 wires
+       97 wire bits
+       97 public wires
+       97 public wire bits
+       73 ports
+       73 port bits
+       25 submodules
+       25   full_adder
+
+=== stage2 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      233 wires
+      233 wire bits
+      233 public wires
+      233 public wire bits
+      175 ports
+      175 port bits
+       59 submodules
+       59   full_adder
+
+=== stage20 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       89 wires
+       89 wire bits
+       89 public wires
+       89 public wire bits
+       67 ports
+       67 port bits
+       23 submodules
+       23   full_adder
+
+=== stage21 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       81 wires
+       81 wire bits
+       81 public wires
+       81 public wire bits
+       61 ports
+       61 port bits
+       21 submodules
+       21   full_adder
+
+=== stage22 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       73 wires
+       73 wire bits
+       73 public wires
+       73 public wire bits
+       55 ports
+       55 port bits
+       19 submodules
+       19   full_adder
+
+=== stage23 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       65 wires
+       65 wire bits
+       65 public wires
+       65 public wire bits
+       49 ports
+       49 port bits
+       17 submodules
+       17   full_adder
+
+=== stage24 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       57 wires
+       57 wire bits
+       57 public wires
+       57 public wire bits
+       43 ports
+       43 port bits
+       15 submodules
+       15   full_adder
+
+=== stage25 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       49 wires
+       49 wire bits
+       49 public wires
+       49 public wire bits
+       37 ports
+       37 port bits
+       13 submodules
+       13   full_adder
+
+=== stage26 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       41 wires
+       41 wire bits
+       41 public wires
+       41 public wire bits
+       31 ports
+       31 port bits
+       11 submodules
+       11   full_adder
+
+=== stage27 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       33 wires
+       33 wire bits
+       33 public wires
+       33 public wire bits
+       25 ports
+       25 port bits
+        9 submodules
+        9   full_adder
+
+=== stage28 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       25 wires
+       25 wire bits
+       25 public wires
+       25 public wire bits
+       19 ports
+       19 port bits
+        7 submodules
+        7   full_adder
+
+=== stage29 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       17 wires
+       17 wire bits
+       17 public wires
+       17 public wire bits
+       13 ports
+       13 port bits
+        5 submodules
+        5   full_adder
+
+=== stage3 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      225 wires
+      225 wire bits
+      225 public wires
+      225 public wire bits
+      169 ports
+      169 port bits
+       57 submodules
+       57   full_adder
+
+=== stage30 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        9 wires
+        9 wire bits
+        9 public wires
+        9 public wire bits
+        7 ports
+        7 port bits
+        3 submodules
+        3   full_adder
+
+=== stage4 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      217 wires
+      217 wire bits
+      217 public wires
+      217 public wire bits
+      163 ports
+      163 port bits
+       55 submodules
+       55   full_adder
+
+=== stage5 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      209 wires
+      209 wire bits
+      209 public wires
+      209 public wire bits
+      157 ports
+      157 port bits
+       53 submodules
+       53   full_adder
+
+=== stage6 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      201 wires
+      201 wire bits
+      201 public wires
+      201 public wire bits
+      151 ports
+      151 port bits
+       51 submodules
+       51   full_adder
+
+=== stage7 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      193 wires
+      193 wire bits
+      193 public wires
+      193 public wire bits
+      145 ports
+      145 port bits
+       49 submodules
+       49   full_adder
+
+=== stage8 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      185 wires
+      185 wire bits
+      185 public wires
+      185 public wire bits
+      139 ports
+      139 port bits
+       47 submodules
+       47   full_adder
+
+=== stage9 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      177 wires
+      177 wire bits
+      177 public wires
+      177 public wire bits
+      133 ports
+      133 port bits
+       45 submodules
+       45   full_adder
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+     7156 DaddaMultiplier
+       32 GenPPRow0
+       32 GenPPRow1
+       32 GenPPRow10
+       32 GenPPRow11
+       32 GenPPRow12
+       32 GenPPRow13
+       32 GenPPRow14
+       32 GenPPRow15
+       32 GenPPRow16
+       32 GenPPRow17
+       32 GenPPRow18
+       32 GenPPRow19
+       32 GenPPRow2
+       32 GenPPRow20
+       32 GenPPRow21
+       32 GenPPRow22
+       32 GenPPRow23
+       32 GenPPRow24
+       32 GenPPRow25
+       32 GenPPRow26
+       32 GenPPRow27
+       32 GenPPRow28
+       32 GenPPRow29
+       32 GenPPRow3
+       32 GenPPRow30
+       32 GenPPRow31
+       32 GenPPRow4
+       32 GenPPRow5
+       32 GenPPRow6
+       32 GenPPRow7
+       32 GenPPRow8
+       32 GenPPRow9
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+        6   full_adder
+
+        +----------Count including submodules.
+        | 
+    28698 wires
+    29878 wire bits
+    12310 public wires
+    13490 public wire bits
+     9272 ports
+    10452 port bits
+        - memories
+        - memory bits
+        - processes
+     7156 cells
+     1024   $_AND_
+     4088   $_NAND_
+     1022   $_OR_
+     1022   $_XNOR_
+       64 submodules
+        1   FinalSum
+        1   GenPPRow0
+        1   GenPPRow1
+        1   GenPPRow10
+        1   GenPPRow11
+        1   GenPPRow12
+        1   GenPPRow13
+        1   GenPPRow14
+        1   GenPPRow15
+        1   GenPPRow16
+        1   GenPPRow17
+        1   GenPPRow18
+        1   GenPPRow19
+        1   GenPPRow2
+        1   GenPPRow20
+        1   GenPPRow21
+        1   GenPPRow22
+        1   GenPPRow23
+        1   GenPPRow24
+        1   GenPPRow25
+        1   GenPPRow26
+        1   GenPPRow27
+        1   GenPPRow28
+        1   GenPPRow29
+        1   GenPPRow3
+        1   GenPPRow30
+        1   GenPPRow31
+        1   GenPPRow4
+        1   GenPPRow5
+        1   GenPPRow6
+        1   GenPPRow7
+        1   GenPPRow8
+        1   GenPPRow9
+        1   stage0
+        1   stage1
+        1   stage10
+        1   stage11
+        1   stage12
+        1   stage13
+        1   stage14
+        1   stage15
+        1   stage16
+        1   stage17
+        1   stage18
+        1   stage19
+        1   stage2
+        1   stage20
+        1   stage21
+        1   stage22
+        1   stage23
+        1   stage24
+        1   stage25
+        1   stage26
+        1   stage27
+        1   stage28
+        1   stage29
+        1   stage3
+        1   stage30
+        1   stage4
+        1   stage5
+        1   stage6
+        1   stage7
+        1   stage8
+        1   stage9
+

@@ -1,0 +1,32 @@
+# Yosys synthesis script for Dadda Multiplier
+
+# Read design files
+read_verilog multipliers/dadda/full_adder.v
+read_verilog multipliers/dadda/GenPP.v
+read_verilog multipliers/dadda/AdderStages.v
+read_verilog multipliers/dadda/FinalSum.v
+read_verilog multipliers/dadda/DaddaMultiplier.v
+
+# Elaborate design
+hierarchy -check -top DaddaMultiplier
+
+# High-level synthesis
+proc; opt; fsm; opt; memory; opt
+
+# Technology mapping
+techmap; opt
+
+# ABC optimization
+abc -g AND,NAND,OR,NOR,XOR,XNOR
+
+# Print statistics
+stat
+
+# Generate reports
+tee -o results/dadda_stats.txt stat
+
+# Write synthesized netlist
+write_verilog results/dadda_synth.v
+
+# Print detailed cell breakdown
+tee -o results/dadda_cells.txt stat -top DaddaMultiplier

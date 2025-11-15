@@ -1,0 +1,32 @@
+# Yosys synthesis script for Classical Multiplier
+
+# Read design files
+read_verilog multipliers/classical/full_adder.v
+read_verilog multipliers/classical/bit4a.v
+read_verilog multipliers/classical/bit16a.v
+read_verilog multipliers/classical/bit64a.v
+read_verilog multipliers/classical/classical.v
+
+# Elaborate design
+hierarchy -check -top classical
+
+# High-level synthesis
+proc; opt; fsm; opt; memory; opt
+
+# Technology mapping
+techmap; opt
+
+# ABC optimization
+abc -g AND,NAND,OR,NOR,XOR,XNOR
+
+# Print statistics
+stat
+
+# Generate reports
+tee -o results/classical_stats.txt stat
+
+# Write synthesized netlist
+write_verilog results/classical_synth.v
+
+# Print detailed cell breakdown
+tee -o results/classical_cells.txt stat -top classical

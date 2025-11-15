@@ -1,0 +1,1120 @@
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.59+0 (git sha1 26b51148a80ea546481cf4f0516be97e4ba251cc, clang++ 17.0.0 -fPIC -O3)
+
+-- Executing script file `synthesis/synthesize_wallace.ys' --
+
+1. Executing Verilog-2005 frontend: multipliers/wallace/adder.v
+Parsing Verilog input from `multipliers/wallace/adder.v' to AST representation.
+verilog frontend filename multipliers/wallace/adder.v
+Generating RTLIL representation for module `\adder_64'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: multipliers/wallace/Wall.v
+Parsing Verilog input from `multipliers/wallace/Wall.v' to AST representation.
+verilog frontend filename multipliers/wallace/Wall.v
+Generating RTLIL representation for module `\fulladder'.
+Generating RTLIL representation for module `\halfadder'.
+Generating RTLIL representation for module `\wallace'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: multipliers/wallace/multiplier_64.v
+Parsing Verilog input from `multipliers/wallace/multiplier_64.v' to AST representation.
+verilog frontend filename multipliers/wallace/multiplier_64.v
+Generating RTLIL representation for module `\Wallace_multiplier_64'.
+Successfully finished Verilog frontend.
+
+4. Executing HIERARCHY pass (managing design hierarchy).
+
+4.1. Analyzing design hierarchy..
+Top module:  \Wallace_multiplier_64
+Used module:     \adder_64
+Used module:         \fulladder
+Used module:         \halfadder
+Used module:     \wallace
+
+4.2. Analyzing design hierarchy..
+Top module:  \Wallace_multiplier_64
+Used module:     \adder_64
+Used module:         \fulladder
+Used module:         \halfadder
+Used module:     \wallace
+Removed 0 unused modules.
+Mapping positional arguments of cell Wallace_multiplier_64.mc15 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc14 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc13 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc12 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc11 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc10 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc9 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc8 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc7 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc6 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc5 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc4 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc3 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.mc2 (adder_64).
+Mapping positional arguments of cell Wallace_multiplier_64.bc16 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc15 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc14 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc13 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc12 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc11 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc10 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc9 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc8 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc7 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc6 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc5 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc4 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc3 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc2 (wallace).
+Mapping positional arguments of cell Wallace_multiplier_64.bc1 (wallace).
+Mapping positional arguments of cell wallace.a63 (fulladder).
+Mapping positional arguments of cell wallace.a62 (fulladder).
+Mapping positional arguments of cell wallace.a61 (fulladder).
+Mapping positional arguments of cell wallace.a60 (fulladder).
+Mapping positional arguments of cell wallace.a59 (fulladder).
+Mapping positional arguments of cell wallace.a58 (fulladder).
+Mapping positional arguments of cell wallace.a57 (fulladder).
+Mapping positional arguments of cell wallace.a56 (fulladder).
+Mapping positional arguments of cell wallace.a55 (fulladder).
+Mapping positional arguments of cell wallace.a54 (halfadder).
+Mapping positional arguments of cell wallace.a53 (halfadder).
+Mapping positional arguments of cell wallace.a52 (fulladder).
+Mapping positional arguments of cell wallace.a51 (fulladder).
+Mapping positional arguments of cell wallace.a50 (fulladder).
+Mapping positional arguments of cell wallace.a49 (fulladder).
+Mapping positional arguments of cell wallace.a48 (fulladder).
+Mapping positional arguments of cell wallace.a47 (fulladder).
+Mapping positional arguments of cell wallace.a46 (fulladder).
+Mapping positional arguments of cell wallace.a45 (halfadder).
+Mapping positional arguments of cell wallace.a44 (halfadder).
+Mapping positional arguments of cell wallace.a43 (halfadder).
+Mapping positional arguments of cell wallace.a42 (halfadder).
+Mapping positional arguments of cell wallace.a41 (halfadder).
+Mapping positional arguments of cell wallace.a40 (fulladder).
+Mapping positional arguments of cell wallace.a39 (fulladder).
+Mapping positional arguments of cell wallace.a38 (fulladder).
+Mapping positional arguments of cell wallace.a37 (fulladder).
+Mapping positional arguments of cell wallace.a36 (fulladder).
+Mapping positional arguments of cell wallace.a35 (fulladder).
+Mapping positional arguments of cell wallace.a34 (halfadder).
+Mapping positional arguments of cell wallace.a33 (halfadder).
+Mapping positional arguments of cell wallace.a32 (fulladder).
+Mapping positional arguments of cell wallace.a31 (fulladder).
+Mapping positional arguments of cell wallace.a30 (fulladder).
+Mapping positional arguments of cell wallace.a29 (halfadder).
+Mapping positional arguments of cell wallace.a28 (halfadder).
+Mapping positional arguments of cell wallace.a27 (fulladder).
+Mapping positional arguments of cell wallace.a26 (fulladder).
+Mapping positional arguments of cell wallace.a25 (fulladder).
+Mapping positional arguments of cell wallace.a24 (fulladder).
+Mapping positional arguments of cell wallace.a23 (fulladder).
+Mapping positional arguments of cell wallace.a22 (fulladder).
+Mapping positional arguments of cell wallace.a21 (fulladder).
+Mapping positional arguments of cell wallace.a20 (fulladder).
+Mapping positional arguments of cell wallace.a19 (fulladder).
+Mapping positional arguments of cell wallace.a18 (fulladder).
+Mapping positional arguments of cell wallace.a17 (halfadder).
+Mapping positional arguments of cell wallace.a16 (halfadder).
+Mapping positional arguments of cell wallace.a15 (fulladder).
+Mapping positional arguments of cell wallace.a14 (fulladder).
+Mapping positional arguments of cell wallace.a13 (fulladder).
+Mapping positional arguments of cell wallace.a12 (halfadder).
+Mapping positional arguments of cell wallace.a11 (fulladder).
+Mapping positional arguments of cell wallace.a10 (fulladder).
+Mapping positional arguments of cell wallace.a9 (fulladder).
+Mapping positional arguments of cell wallace.a8 (fulladder).
+Mapping positional arguments of cell wallace.a7 (fulladder).
+Mapping positional arguments of cell wallace.a6 (fulladder).
+Mapping positional arguments of cell wallace.a5 (halfadder).
+Mapping positional arguments of cell wallace.a4 (fulladder).
+Mapping positional arguments of cell wallace.a3 (fulladder).
+Mapping positional arguments of cell wallace.a2 (fulladder).
+Mapping positional arguments of cell wallace.a1241 (halfadder).
+Mapping positional arguments of cell adder_64.fdf (fulladder).
+Mapping positional arguments of cell adder_64.fds (fulladder).
+Mapping positional arguments of cell adder_64.fd412 (fulladder).
+Mapping positional arguments of cell adder_64.fdsf (fulladder).
+Mapping positional arguments of cell adder_64.fd4 (fulladder).
+Mapping positional arguments of cell adder_64.f451 (fulladder).
+Mapping positional arguments of cell adder_64.f435 (fulladder).
+Mapping positional arguments of cell adder_64.f345 (fulladder).
+Mapping positional arguments of cell adder_64.f456 (fulladder).
+Mapping positional arguments of cell adder_64.f564 (fulladder).
+Mapping positional arguments of cell adder_64.f54 (fulladder).
+Mapping positional arguments of cell adder_64.f172 (fulladder).
+Mapping positional arguments of cell adder_64.f174 (fulladder).
+Mapping positional arguments of cell adder_64.f2114 (fulladder).
+Mapping positional arguments of cell adder_64.f152 (fulladder).
+Mapping positional arguments of cell adder_64.f412 (fulladder).
+Mapping positional arguments of cell adder_64.f244 (fulladder).
+Mapping positional arguments of cell adder_64.f94 (fulladder).
+Mapping positional arguments of cell adder_64.f53 (fulladder).
+Mapping positional arguments of cell adder_64.f542 (fulladder).
+Mapping positional arguments of cell adder_64.f45 (fulladder).
+Mapping positional arguments of cell adder_64.f42 (fulladder).
+Mapping positional arguments of cell adder_64.f472 (fulladder).
+Mapping positional arguments of cell adder_64.f145 (fulladder).
+Mapping positional arguments of cell adder_64.f45641 (fulladder).
+Mapping positional arguments of cell adder_64.f56434 (fulladder).
+Mapping positional arguments of cell adder_64.f455 (fulladder).
+Mapping positional arguments of cell adder_64.f56 (fulladder).
+Mapping positional arguments of cell adder_64.f55 (fulladder).
+Mapping positional arguments of cell adder_64.f38 (fulladder).
+Mapping positional arguments of cell adder_64.f37 (fulladder).
+Mapping positional arguments of cell adder_64.f36 (fulladder).
+Mapping positional arguments of cell adder_64.f35 (fulladder).
+Mapping positional arguments of cell adder_64.f34 (fulladder).
+Mapping positional arguments of cell adder_64.f33 (fulladder).
+Mapping positional arguments of cell adder_64.f32 (fulladder).
+Mapping positional arguments of cell adder_64.f31 (fulladder).
+Mapping positional arguments of cell adder_64.f30 (fulladder).
+Mapping positional arguments of cell adder_64.f29 (fulladder).
+Mapping positional arguments of cell adder_64.f119 (fulladder).
+Mapping positional arguments of cell adder_64.f28 (fulladder).
+Mapping positional arguments of cell adder_64.f27 (fulladder).
+Mapping positional arguments of cell adder_64.f26 (fulladder).
+Mapping positional arguments of cell adder_64.f25 (fulladder).
+Mapping positional arguments of cell adder_64.f24 (fulladder).
+Mapping positional arguments of cell adder_64.f23 (fulladder).
+Mapping positional arguments of cell adder_64.f22 (fulladder).
+Mapping positional arguments of cell adder_64.f21 (fulladder).
+Mapping positional arguments of cell adder_64.f16 (fulladder).
+Mapping positional arguments of cell adder_64.f15 (fulladder).
+Mapping positional arguments of cell adder_64.f14 (fulladder).
+Mapping positional arguments of cell adder_64.f13 (fulladder).
+Mapping positional arguments of cell adder_64.f12 (fulladder).
+Mapping positional arguments of cell adder_64.f11 (fulladder).
+Mapping positional arguments of cell adder_64.f10 (fulladder).
+Mapping positional arguments of cell adder_64.f9 (fulladder).
+Mapping positional arguments of cell adder_64.f8 (fulladder).
+Mapping positional arguments of cell adder_64.f7 (fulladder).
+Mapping positional arguments of cell adder_64.f6 (fulladder).
+Mapping positional arguments of cell adder_64.f5 (fulladder).
+Mapping positional arguments of cell adder_64.f4 (fulladder).
+Mapping positional arguments of cell adder_64.f3 (fulladder).
+Mapping positional arguments of cell adder_64.f2 (fulladder).
+Mapping positional arguments of cell adder_64.f1 (halfadder).
+
+5. Executing PROC pass (convert processes to netlists).
+
+5.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+5.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+5.4. Executing PROC_INIT pass (extract init attributes).
+
+5.5. Executing PROC_ARST pass (detect async resets in processes).
+
+5.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+5.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+5.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+5.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+5.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+5.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+5.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module wallace.
+Optimizing module halfadder.
+Optimizing module fulladder.
+Optimizing module adder_64.
+
+6. Executing OPT pass (performing simple optimizations).
+
+6.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module wallace.
+Optimizing module halfadder.
+Optimizing module fulladder.
+Optimizing module adder_64.
+
+6.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\wallace'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\adder_64'.
+Removed a total of 0 cells.
+
+6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \Wallace_multiplier_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \wallace..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \halfadder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \fulladder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \adder_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \Wallace_multiplier_64.
+  Optimizing cells in module \wallace.
+  Optimizing cells in module \halfadder.
+  Optimizing cells in module \fulladder.
+  Optimizing cells in module \adder_64.
+Performed a total of 0 changes.
+
+6.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\wallace'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\adder_64'.
+Removed a total of 0 cells.
+
+6.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Wallace_multiplier_64..
+Finding unused cells or wires in module \wallace..
+Finding unused cells or wires in module \halfadder..
+Finding unused cells or wires in module \fulladder..
+Finding unused cells or wires in module \adder_64..
+Removed 0 unused cells and 20 unused wires.
+<suppressed ~4 debug messages>
+
+6.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module adder_64.
+Optimizing module fulladder.
+Optimizing module halfadder.
+Optimizing module wallace.
+
+6.9. Rerunning OPT passes. (Maybe there is more to do..)
+
+6.10. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \Wallace_multiplier_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \adder_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \fulladder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \halfadder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \wallace..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+6.11. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \Wallace_multiplier_64.
+  Optimizing cells in module \adder_64.
+  Optimizing cells in module \fulladder.
+  Optimizing cells in module \halfadder.
+  Optimizing cells in module \wallace.
+Performed a total of 0 changes.
+
+6.12. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\adder_64'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\wallace'.
+Removed a total of 0 cells.
+
+6.13. Executing OPT_DFF pass (perform DFF optimizations).
+
+6.14. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Wallace_multiplier_64..
+Finding unused cells or wires in module \adder_64..
+Finding unused cells or wires in module \fulladder..
+Finding unused cells or wires in module \halfadder..
+Finding unused cells or wires in module \wallace..
+
+6.15. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module adder_64.
+Optimizing module fulladder.
+Optimizing module halfadder.
+Optimizing module wallace.
+
+6.16. Finished fast OPT passes. (There is nothing left to do.)
+
+7. Executing FSM pass (extract and optimize FSM).
+
+7.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Wallace_multiplier_64..
+Finding unused cells or wires in module \adder_64..
+Finding unused cells or wires in module \fulladder..
+Finding unused cells or wires in module \halfadder..
+Finding unused cells or wires in module \wallace..
+
+7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+8. Executing OPT pass (performing simple optimizations).
+
+8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module adder_64.
+Optimizing module fulladder.
+Optimizing module halfadder.
+Optimizing module wallace.
+
+8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\adder_64'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\wallace'.
+Removed a total of 0 cells.
+
+8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \Wallace_multiplier_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \adder_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \fulladder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \halfadder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \wallace..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \Wallace_multiplier_64.
+  Optimizing cells in module \adder_64.
+  Optimizing cells in module \fulladder.
+  Optimizing cells in module \halfadder.
+  Optimizing cells in module \wallace.
+Performed a total of 0 changes.
+
+8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\adder_64'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\wallace'.
+Removed a total of 0 cells.
+
+8.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Wallace_multiplier_64..
+Finding unused cells or wires in module \adder_64..
+Finding unused cells or wires in module \fulladder..
+Finding unused cells or wires in module \halfadder..
+Finding unused cells or wires in module \wallace..
+
+8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module adder_64.
+Optimizing module fulladder.
+Optimizing module halfadder.
+Optimizing module wallace.
+
+8.9. Finished fast OPT passes. (There is nothing left to do.)
+
+9. Executing MEMORY pass.
+
+9.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+9.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+9.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+9.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+9.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+9.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Wallace_multiplier_64..
+Finding unused cells or wires in module \adder_64..
+Finding unused cells or wires in module \fulladder..
+Finding unused cells or wires in module \halfadder..
+Finding unused cells or wires in module \wallace..
+
+9.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+9.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+9.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Wallace_multiplier_64..
+Finding unused cells or wires in module \adder_64..
+Finding unused cells or wires in module \fulladder..
+Finding unused cells or wires in module \halfadder..
+Finding unused cells or wires in module \wallace..
+
+9.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+9.11. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+10. Executing OPT pass (performing simple optimizations).
+
+10.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module adder_64.
+Optimizing module fulladder.
+Optimizing module halfadder.
+Optimizing module wallace.
+
+10.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\adder_64'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\wallace'.
+Removed a total of 0 cells.
+
+10.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \Wallace_multiplier_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \adder_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \fulladder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \halfadder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \wallace..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+10.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \Wallace_multiplier_64.
+  Optimizing cells in module \adder_64.
+  Optimizing cells in module \fulladder.
+  Optimizing cells in module \halfadder.
+  Optimizing cells in module \wallace.
+Performed a total of 0 changes.
+
+10.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\adder_64'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\wallace'.
+Removed a total of 0 cells.
+
+10.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+10.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Wallace_multiplier_64..
+Finding unused cells or wires in module \adder_64..
+Finding unused cells or wires in module \fulladder..
+Finding unused cells or wires in module \halfadder..
+Finding unused cells or wires in module \wallace..
+
+10.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module adder_64.
+Optimizing module fulladder.
+Optimizing module halfadder.
+Optimizing module wallace.
+
+10.9. Finished fast OPT passes. (There is nothing left to do.)
+
+11. Executing TECHMAP pass (map to technology primitives).
+
+11.1. Executing Verilog-2005 frontend: /opt/homebrew/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/opt/homebrew/bin/../share/yosys/techmap.v' to AST representation.
+verilog frontend filename /opt/homebrew/bin/../share/yosys/techmap.v
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `\$connect'.
+Generating RTLIL representation for module `\$input_port'.
+Successfully finished Verilog frontend.
+
+11.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $or.
+Using extmapper simplemap for cells of type $not.
+Using extmapper simplemap for cells of type $xor.
+No more expansions possible.
+<suppressed ~98 debug messages>
+
+12. Executing OPT pass (performing simple optimizations).
+
+12.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module adder_64.
+Optimizing module fulladder.
+Optimizing module halfadder.
+Optimizing module wallace.
+
+12.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\adder_64'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\wallace'.
+Removed a total of 0 cells.
+
+12.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \Wallace_multiplier_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \adder_64..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \fulladder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \halfadder..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \wallace..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+12.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \Wallace_multiplier_64.
+  Optimizing cells in module \adder_64.
+  Optimizing cells in module \fulladder.
+  Optimizing cells in module \halfadder.
+  Optimizing cells in module \wallace.
+Performed a total of 0 changes.
+
+12.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\Wallace_multiplier_64'.
+Finding identical cells in module `\adder_64'.
+Finding identical cells in module `\fulladder'.
+Finding identical cells in module `\halfadder'.
+Finding identical cells in module `\wallace'.
+Removed a total of 0 cells.
+
+12.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+12.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \Wallace_multiplier_64..
+Finding unused cells or wires in module \adder_64..
+Finding unused cells or wires in module \fulladder..
+Finding unused cells or wires in module \halfadder..
+Finding unused cells or wires in module \wallace..
+
+12.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module Wallace_multiplier_64.
+Optimizing module adder_64.
+Optimizing module fulladder.
+Optimizing module halfadder.
+Optimizing module wallace.
+
+12.9. Finished fast OPT passes. (There is nothing left to do.)
+
+13. Executing ABC pass (technology mapping using ABC).
+
+13.1. Extracting gate netlist of module `\Wallace_multiplier_64' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
+
+13.1.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+13.2. Extracting gate netlist of module `\adder_64' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
+
+13.2.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+13.3. Extracting gate netlist of module `\fulladder' to `<abc-temp-dir>/input.blif'..
+
+13.3.1. Executed ABC.
+Extracted 7 gates and 10 wires to a netlist network with 3 inputs and 2 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-IdevO0/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+13.3.2. Re-integrating ABC results.
+ABC RESULTS:              NAND cells:        4
+ABC RESULTS:                OR cells:        1
+ABC RESULTS:              XNOR cells:        1
+ABC RESULTS:        internal signals:        5
+ABC RESULTS:           input signals:        3
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+13.4. Extracting gate netlist of module `\halfadder' to `<abc-temp-dir>/input.blif'..
+
+13.4.1. Executed ABC.
+Extracted 6 gates and 8 wires to a netlist network with 2 inputs and 2 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-IdevO0/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+13.4.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        1
+ABC RESULTS:               XOR cells:        1
+ABC RESULTS:        internal signals:        4
+ABC RESULTS:           input signals:        2
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+13.5. Extracting gate netlist of module `\wallace' to `<abc-temp-dir>/input.blif'..
+
+13.5.1. Executed ABC.
+Extracted 64 gates and 80 wires to a netlist network with 16 inputs and 64 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: ABC command line: "source <abc-temp-dir>/abc.script".
+ABC: 
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-IdevO0/stdcells.genlib 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &fraig -x 
+ABC: + &put 
+ABC: + scorr 
+ABC: Warning: The network is combinational (run "fraig" or "fraig_sweep").
+ABC: + dc2 
+ABC: + dretime 
+ABC: + strash 
+ABC: + &get -n 
+ABC: + &dch -f 
+ABC: + &nf 
+ABC: + &put 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+13.5.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:       64
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:       16
+ABC RESULTS:          output signals:       64
+Removing temp directory.
+Removing global temp directory.
+
+14. Printing statistics.
+
+=== Wallace_multiplier_64 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       58 wires
+     2369 wire bits
+       58 public wires
+     2369 public wire bits
+        3 ports
+      128 port bits
+       31 submodules
+       15   adder_64
+       16   wallace
+
+=== adder_64 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       67 wires
+      256 wire bits
+       67 public wires
+      256 public wire bits
+        4 ports
+      193 port bits
+       64 submodules
+       63   fulladder
+        1   halfadder
+
+=== fulladder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        8 public wires
+        8 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== halfadder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       12 wires
+       12 wire bits
+        8 public wires
+        8 public wire bits
+        4 ports
+        4 port bits
+        2 cells
+        1   $_AND_
+        1   $_XOR_
+
+=== wallace ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      101 wires
+      359 wire bits
+       21 public wires
+      279 public wire bits
+        3 ports
+       32 port bits
+       64 cells
+       64   $_AND_
+       63 submodules
+       47   fulladder
+       16   halfadder
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    11748 Wallace_multiplier_64
+        6   fulladder
+        2   halfadder
+       64 wallace
+        6   fulladder
+        2   halfadder
+
+        +----------Count including submodules.
+        | 
+    38174 wires
+    47448 wire bits
+    17143 public wires
+    26417 public wire bits
+     9680 ports
+    13104 port bits
+        - memories
+        - memory bits
+        - processes
+    11748 cells
+     1295   $_AND_
+     6788   $_NAND_
+     1697   $_OR_
+     1697   $_XNOR_
+      271   $_XOR_
+       31 submodules
+       15   adder_64
+       16   wallace
+
+15. Printing statistics.
+
+=== Wallace_multiplier_64 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       58 wires
+     2369 wire bits
+       58 public wires
+     2369 public wire bits
+        3 ports
+      128 port bits
+       31 submodules
+       15   adder_64
+       16   wallace
+
+=== adder_64 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       67 wires
+      256 wire bits
+       67 public wires
+      256 public wire bits
+        4 ports
+      193 port bits
+       64 submodules
+       63   fulladder
+        1   halfadder
+
+=== fulladder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        8 public wires
+        8 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== halfadder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       12 wires
+       12 wire bits
+        8 public wires
+        8 public wire bits
+        4 ports
+        4 port bits
+        2 cells
+        1   $_AND_
+        1   $_XOR_
+
+=== wallace ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      101 wires
+      359 wire bits
+       21 public wires
+      279 public wire bits
+        3 ports
+       32 port bits
+       64 cells
+       64   $_AND_
+       63 submodules
+       47   fulladder
+       16   halfadder
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    11748 Wallace_multiplier_64
+        6   fulladder
+        2   halfadder
+       64 wallace
+        6   fulladder
+        2   halfadder
+
+        +----------Count including submodules.
+        | 
+    38174 wires
+    47448 wire bits
+    17143 public wires
+    26417 public wire bits
+     9680 ports
+    13104 port bits
+        - memories
+        - memory bits
+        - processes
+    11748 cells
+     1295   $_AND_
+     6788   $_NAND_
+     1697   $_OR_
+     1697   $_XNOR_
+      271   $_XOR_
+       31 submodules
+       15   adder_64
+       16   wallace
+
+16. Executing Verilog backend.
+
+16.1. Executing BMUXMAP pass.
+
+16.2. Executing DEMUXMAP pass.
+Dumping module `\Wallace_multiplier_64'.
+Dumping module `\adder_64'.
+Dumping module `\fulladder'.
+Dumping module `\halfadder'.
+Dumping module `\wallace'.
+
+17. Printing statistics.
+
+=== Wallace_multiplier_64 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       58 wires
+     2369 wire bits
+       58 public wires
+     2369 public wire bits
+        3 ports
+      128 port bits
+       31 submodules
+       15   adder_64
+       16   wallace
+
+=== adder_64 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       67 wires
+      256 wire bits
+       67 public wires
+      256 public wire bits
+        4 ports
+      193 port bits
+       64 submodules
+       63   fulladder
+        1   halfadder
+
+=== fulladder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        8 public wires
+        8 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== halfadder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       12 wires
+       12 wire bits
+        8 public wires
+        8 public wire bits
+        4 ports
+        4 port bits
+        2 cells
+        1   $_AND_
+        1   $_XOR_
+
+=== wallace ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      101 wires
+      359 wire bits
+       21 public wires
+      279 public wire bits
+        3 ports
+       32 port bits
+       64 cells
+       64   $_AND_
+       63 submodules
+       47   fulladder
+       16   halfadder
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    11748 Wallace_multiplier_64
+        6   fulladder
+        2   halfadder
+       64 wallace
+        6   fulladder
+        2   halfadder
+
+        +----------Count including submodules.
+        | 
+    38174 wires
+    47448 wire bits
+    17143 public wires
+    26417 public wire bits
+     9680 ports
+    13104 port bits
+        - memories
+        - memory bits
+        - processes
+    11748 cells
+     1295   $_AND_
+     6788   $_NAND_
+     1697   $_OR_
+     1697   $_XNOR_
+      271   $_XOR_
+       31 submodules
+       15   adder_64
+       16   wallace
+
+End of script. Logfile hash: 515bbd2730, CPU: user 0.09s system 0.01s, MEM: 21.61 MB peak
+Yosys 0.59+0 (git sha1 26b51148a80ea546481cf4f0516be97e4ba251cc, clang++ 17.0.0 -fPIC -O3)
+Time spent: 47% 1x abc (0 sec), 10% 3x stat (0 sec), ...

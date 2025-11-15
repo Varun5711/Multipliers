@@ -1,0 +1,107 @@
+15. Printing statistics.
+
+=== Wallace_multiplier_64 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       58 wires
+     2369 wire bits
+       58 public wires
+     2369 public wire bits
+        3 ports
+      128 port bits
+       31 submodules
+       15   adder_64
+       16   wallace
+
+=== adder_64 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       67 wires
+      256 wire bits
+       67 public wires
+      256 public wire bits
+        4 ports
+      193 port bits
+       64 submodules
+       63   fulladder
+        1   halfadder
+
+=== fulladder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       19 wires
+       19 wire bits
+        8 public wires
+        8 public wire bits
+        5 ports
+        5 port bits
+        6 cells
+        4   $_NAND_
+        1   $_OR_
+        1   $_XNOR_
+
+=== halfadder ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       12 wires
+       12 wire bits
+        8 public wires
+        8 public wire bits
+        4 ports
+        4 port bits
+        2 cells
+        1   $_AND_
+        1   $_XOR_
+
+=== wallace ===
+
+        +----------Local Count, excluding submodules.
+        | 
+      101 wires
+      359 wire bits
+       21 public wires
+      279 public wire bits
+        3 ports
+       32 port bits
+       64 cells
+       64   $_AND_
+       63 submodules
+       47   fulladder
+       16   halfadder
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+    11748 Wallace_multiplier_64
+        6   fulladder
+        2   halfadder
+       64 wallace
+        6   fulladder
+        2   halfadder
+
+        +----------Count including submodules.
+        | 
+    38174 wires
+    47448 wire bits
+    17143 public wires
+    26417 public wire bits
+     9680 ports
+    13104 port bits
+        - memories
+        - memory bits
+        - processes
+    11748 cells
+     1295   $_AND_
+     6788   $_NAND_
+     1697   $_OR_
+     1697   $_XNOR_
+      271   $_XOR_
+       31 submodules
+       15   adder_64
+       16   wallace
+
