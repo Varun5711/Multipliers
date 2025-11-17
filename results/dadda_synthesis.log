@@ -5869,7 +5869,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -5900,7 +5900,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -5931,7 +5931,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -5962,7 +5962,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -5993,7 +5993,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6024,7 +6024,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6055,7 +6055,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6086,7 +6086,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6117,7 +6117,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6148,7 +6148,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6179,7 +6179,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6210,7 +6210,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6241,7 +6241,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6272,7 +6272,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6303,7 +6303,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6334,7 +6334,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6365,7 +6365,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6396,7 +6396,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6427,7 +6427,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6458,7 +6458,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6489,7 +6489,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6520,7 +6520,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6551,7 +6551,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6582,7 +6582,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6613,7 +6613,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6644,7 +6644,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6675,7 +6675,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6706,7 +6706,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6737,7 +6737,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6768,7 +6768,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6799,7 +6799,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6830,7 +6830,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -6861,7 +6861,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-ftnUGF/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-8FsRzr/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -10398,6 +10398,6 @@ Dumping module `\stage9'.
         1   stage8
         1   stage9
 
-End of script. Logfile hash: 339352fe10, CPU: user 0.78s system 0.03s, MEM: 43.38 MB peak
+End of script. Logfile hash: f888379976, CPU: user 0.87s system 0.04s, MEM: 43.45 MB peak
 Yosys 0.59+0 (git sha1 26b51148a80ea546481cf4f0516be97e4ba251cc, clang++ 17.0.0 -fPIC -O3)
-Time spent: 52% 1x abc (0 sec), 9% 10x opt_expr (0 sec), ...
+Time spent: 51% 1x abc (0 sec), 9% 10x opt_expr (0 sec), ...

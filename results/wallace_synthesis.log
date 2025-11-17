@@ -694,7 +694,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-IdevO0/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-pAKVRT/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -727,7 +727,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-IdevO0/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-pAKVRT/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -759,7 +759,7 @@ Running ABC script: <abc-temp-dir>/abc.script
 ABC: ABC command line: "source <abc-temp-dir>/abc.script".
 ABC: 
 ABC: + read_blif <abc-temp-dir>/input.blif 
-ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-IdevO0/stdcells.genlib 
+ABC: + read_library /var/folders/4g/zm618qj51qb55cqp4y69x4b00000gn/T/yosys-abc-pAKVRT/stdcells.genlib 
 ABC: + strash 
 ABC: + &get -n 
 ABC: + &fraig -x 
@@ -1115,6 +1115,6 @@ Dumping module `\wallace'.
        15   adder_64
        16   wallace
 
-End of script. Logfile hash: 515bbd2730, CPU: user 0.09s system 0.01s, MEM: 21.61 MB peak
+End of script. Logfile hash: 9b8f809630, CPU: user 0.10s system 0.01s, MEM: 21.59 MB peak
 Yosys 0.59+0 (git sha1 26b51148a80ea546481cf4f0516be97e4ba251cc, clang++ 17.0.0 -fPIC -O3)
-Time spent: 47% 1x abc (0 sec), 10% 3x stat (0 sec), ...
+Time spent: 46% 1x abc (0 sec), 10% 3x stat (0 sec), ...
