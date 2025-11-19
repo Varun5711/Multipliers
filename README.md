@@ -114,7 +114,6 @@ Fast-Multipliers/
 │   ├── *_synthesis.log            # Synthesis logs
 │   └── analysis_results.json      # Complete metrics
 │
-├── CS203 report.pdf               # Detailed technical report
 └── README.md                      # This file
 ```
 
